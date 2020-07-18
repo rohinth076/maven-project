@@ -14,7 +14,7 @@ This repository contains two maven projects (project01 & project2).
 > java -jar target/ Project2-1.0-SNAPSHOT.jar
 ```
 
-##project01
+## project01
 
 Creates a non executable **JAR** file. It contains the following dependencies.
 
@@ -33,7 +33,7 @@ Creates a non executable **JAR** file. It contains the following dependencies.
     </dependencies>
 ```
 
-##project2
+## project2
 
 Creates a executable **JAR** file using maven-shade-plugin.
 ```
