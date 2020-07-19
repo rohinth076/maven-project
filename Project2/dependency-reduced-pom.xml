@@ -18,7 +18,7 @@
               <shadedArtifactAttached>false</shadedArtifactAttached>
               <transformers>
                 <transformer>
-                  <mainClass>MainClass</mainClass>
+                  <mainClass>in.itech1.MainClass</mainClass>
                 </transformer>
               </transformers>
             </configuration>

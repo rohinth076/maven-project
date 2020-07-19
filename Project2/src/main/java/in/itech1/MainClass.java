@@ -1,8 +1,8 @@
-import com.itech.CountryFinder;
+package in.itech1;
 
+import com.itech.CountryFinder;
 import java.io.IOException;
 import java.util.Scanner;
-
 public class MainClass {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
