@@ -25,7 +25,7 @@ public class CountryFinder {
         String jsonResponse = EntityUtils.toString(httpEntity);
         Gson gson = new Gson();
         Country country = gson.fromJson(jsonResponse,Country.class);
-
+        System.out.println(country.capital);
         return country.name;
     }
 }
